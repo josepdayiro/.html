@@ -1,0 +1,59 @@
+<style>
+body {
+    background-image: url(<style>
+    body {
+        background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20231228/pngtree-seamless-texture-of-polar-bears-ice-skating-image_13920988.png);
+    }
+    </style>
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background: #e8e8e8;
+    }
+    .menu{
+        list-style: none;
+        padding: 0;
+        background: #270672;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    .menu li a{
+        text-decoration: none;
+        color:white;
+        padding: 20px;
+        display: block;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a:hover{
+        background: #ef8354;
+    });
+}
+</style>
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background: #e8e8e8;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #300774;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    display: block;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #ef8354;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-image: url(https://img.freepik.com/vector-gratis/paisaje-invierno-desenfocado-copos-nieve_1393-210.jpg?semt=ais_hybrid);
+            }
+        </style>
+        <meta charset="utf-8">
+        <title>Contacto</title>
+    </head>
+    <body>
+      <h1>
+        <strong>FORMULARIO DE PEDIDO</strong>
+      </h1> 
+      <h2>DATOS PERSONALES</h2>
+      <form action="/submit_form"method="post">
+        <label form="name">Nombre:</label>
+        <input type="text id"="name"name="name"placeholder="Introduce tu nombre"required><br><br>
+        <label form="email">Correo Electronico:</label>
+        <input type="email"id="email"name="email"placeholder="Introduce tu Correo Electronico"required><br><br>
+        <label form="message">Comentario:</label>
+        <textarea id="message"name="message"placeholder="Escribe tu Comentario aqui"required></textarea><br><br>
+        <label form="direction">Direccion:</label>
+        <input type="direction"="direction"name="direction"placeholder="Introduce tu direccion aqui"required><br><br>
+        <label>Color de tinte:</label><br>
+        <select name="Sabor">
+            <option>Chocolate</option>
+            <option>Vainilla</option>
+            <option>Banana</option>
+            <option>Mango</option>
+            <option>Menta</option>
+            <option>Combinado</option>
+        </select>
+        <br><br>
+        <p>
+            Presentacion:<input type="radio"name="tamaño"value="p"/>Cono<input type="radio" name="tamaño"value="g"/>Bote
+            <input type="radio"name="tamaño"value="x"/>Paleta
+        </p>
+        <br>
+        <p><input type="checkbox"name="info"checked="checked"/>Deseo recibir informacion sobre novedades</p>
+        <p><input type="checkbox"name="condiciones"checked="checked"/>Acepto todas las condiciones</p>
+        <input type="submit"value="Enviar"><br><BR>
+    </form> 
+        <a href="index.html"><input type="submit"value="REGRESAR"></a>
+        </body>
+</html>
